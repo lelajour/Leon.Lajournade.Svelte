@@ -1,5 +1,8 @@
 <script>
+
 	import Pdp from "./pdp.svelte";
+	import Rcolumn from "./right_column.svelte";
+
 </script>
 
 <div id="particles-js">
@@ -10,6 +13,7 @@
 
 <style>
 #particles-js{
+	align-items: center;
 	clear: both;
 	display: inline-block;
 	width: 100%;
@@ -17,7 +21,7 @@
 	background-color: #252525;
 	background-image: url('');
 	background-size: cover;
-	position: absolute;
+	position: relative;
 	background-position: 50% 50%;
 	background-repeat: repeat;
 }
